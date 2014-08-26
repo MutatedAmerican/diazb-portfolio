@@ -1,0 +1,51 @@
+.header{
+background-color:#2C2C2C;
+}
+.blue_bar{
+	height:40px;
+	background-color:#3E4B0A;
+}
+div#head{
+	background-color:#2C2C2C;
+}
+div#name{
+	font-size:60px;
+	color:white;
+}
+
+div#links{
+}
+ul#menu {  
+    list-style: none;  
+}  
+ul#menu li a {  
+    font-size: 25px;  
+    color: #bbbbbb;  
+    text-decoration: none;  
+}  
+ul#menu li a:hover 
+{
+	text-decoration: bold; 
+	color: white;
+}
+ul#menu li {  
+    float: left;  
+}  
+.footer{
+background-color:black;
+color:#A1A1A1;
+text-align:right;
+height:80px;
+}
+h1{
+	font-size:30px;
+	color:black;
+}
+
+p{
+	font-size:12px;
+}
+a:link {color:#262626; text-decoration: none;}      /* unvisited link */
+a:visited {color:#262626;}  /* visited link */
+a:hover {color:#63a8cf;}  /* mouse over link */
+a:active {color:#262626;}  /* selected link */ 
