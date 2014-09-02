@@ -48,6 +48,12 @@ b{
     color: black;
 }
 
+.col-xs-3{
+    border-color:#2C3539;
+    background-color:#848482;
+    color: black;
+}
+
 .col-xs-4{
     border-color:#848482;
     background-color:#848482;
