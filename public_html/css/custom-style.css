@@ -49,25 +49,30 @@ b{
 }
 
 .col-xs-3{
-    border-color:#2C3539;
+    border-color:#848482;
     background-color:#848482;
     color: black;
-    margin-top: 10px;
+    font-size: 30px;
+    height: 75px;
 }
 
 .col-xs-4{
-    border-color:#848482;
-    background-color:#848482;
+    border-color:black;
+    background-color:#848482; 
+    color: black;
+    font-size: 18px;
 }
 
 .col-xs-8{
-    border-color:#848482;
-    background-color:#848482;
+    border-color:black;
+    background-color:#848482; 
+    height: 75px;
 }
 
 .col-xs-12{
-    border-color:#848482;
+    border-color:black;
     background-color:#848482;
+    
 }
 
 .list-group-item{
@@ -75,5 +80,5 @@ b{
     border-color:#848482; 
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #848482;    
+    background-color: #848482;   
 }
