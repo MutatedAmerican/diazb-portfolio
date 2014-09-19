@@ -1,6 +1,6 @@
 div{
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     font-family: 'Halant', serif;
     background-color:#2C3539;
 }
@@ -16,7 +16,7 @@ b{
 
 .row{
     background-color:#848482;
-    color: #7E3517;
+    color: black;
     font-size:50px;
     font-family: 'Roboto Slab', serif;
     border-left-color: #848482;
@@ -82,3 +82,41 @@ b{
     margin-bottom: 10px;
     background-color: #848482;   
 }
+                    
+                        
+/*<<center>
+sscript type="text/javascript">
+var x=0;
+
+function rotate(num){
+fs=document.ff.slide;
+x=num%fs.length;
+if(x<0) x=fs.length-1;
+document.images.show.src=fs.options[x].value;
+fs.selectedIndex=x;}
+
+function auto() {
+if(document.ff.fa.value == "Stop"){
+rotate(++x);setTimeout("auto()", 60000);}}
+</script>
+
+<form name="ff">
+<table>
+<tr><td align="center">
+<img src="http://haloreachdaily.files.wordpress.com/2011/11/mythic-difficulty.jpg" height="500" width="1000"name="show">
+</td></tr>
+
+<tr><td align="center">
+<select name="slide">
+<option value="http://haloreachdaily.files.wordpress.com/2011/11/mythic-difficulty.jpg">About Me</option>
+<option value="http://www.digitaljournal.com/img/1/4/8/8/6/8/i/5/8/6/o/family_guy.jpg">My Family</option>
+<option value="http://www.shikkhok.com/wp-content/uploads/2013/12/Android-Game-1.png">The APP Academy</option>
+</td></tr>
+
+<tr><td align="center">
+<input type="button" onclick="rotate(x-1);" value="&lt;&lt;" title="Last Picture" />
+<input type="button" onclick="rotate(x+1);" value="&gt;&gt;" title="Next Picture" />
+</td></tr></table></form> 
+
+                    </center>*/
+ 
