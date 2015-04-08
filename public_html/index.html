@@ -1,8 +1,15 @@
-<html>
 
-<head>
+<!DOCTYPE html>
 
-	<title>Bryan's Portfolio</title>
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <title>Bryan Diaz</title>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
@@ -11,83 +18,115 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Halant:600' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://mathelme.com/wp-content/themes/mathelme/css/foundation.min.css" />
+        <link rel="stylesheet" href="http://mathelme.com/wp-content/themes/mathelme/css/foundation.min.css" />
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-  <header>
+        <header>
 
-  	<div class="row">
+            <div class="col-xs-12">
 
-  		<div class="col-xs-12">
+                <h1><img src="https://c1.staticflickr.com/5/4148/5411874169_daf4dff1cb_z.jpg" height="75" width="75">
+                    Bryan Diaz <span style="font-size: 20px;">Web & App Developer</span></h1></div>
 
-  			<h1><img src="https://c1.staticflickr.com/5/4148/5411874169_daf4dff1cb_z.jpg" height="75" width="75">
-  			Bryan Diaz <span style="font-size: 20px;">Web & App Developer</span></h1>
-
-                                <div class="col-xs-4" style="font-size: 20px; color: black;">
-                                <ul><a href="index.html" ><span class="glyphicon glyphicon-home"> Home</span></a></ul>
-                                </div>
-                                <div class="col-xs-4" style="font-size: 20px; color: black;">
-                                <ul><a href="project.html" ><span class="glyphicon glyphicon-list"> Projects</span></a></ul>
-                                </div>
-                                <div class="col-xs-4" style="font-size: 20px; color: black;">
-                            <ul><a href="tech.html" ><span class="glyphicon glyphicon-tags"> Technologies</span></a></ul>
-                            </div>
-                            
-    	</div>
-</div>
-    
-  </header>
-
-  <div class="space-t-100 main">
-        <div class="row">
-          <div class="col-xs-12">
-            <img src="http://www.zastavki.com/pictures/originals/2013/Games___Video_Game_Apocalypse_042731_.jpg"/>
-          </div>
+            <div class="col-xs-4" style="font-size: 20px; color: black;">
+                <ul><a href="index.html" ><span class="glyphicon glyphicon-home"> Home</span></a></ul>
+            </div>
+            <div class="col-xs-4" style="font-size: 20px; color: black;">
+                <ul><a href="project.html" ><span class="glyphicon glyphicon-list"> Projects</span></a></ul>
+            </div>
+            <div class="col-xs-4" style="font-size: 20px; color: black;">
+                <ul><a href="tech.html" ><span class="glyphicon glyphicon-tags"> Technologies</span></a></ul>
+            </div>
         </div>
 
-	<div class="row">
-            <h4 style="color: black;"><center>About Me</center></h4>
-          </div>
+    </header>
 
-                <div class="col-xs-4">
-                    <div class="row1">
-                        <p>*Introduction</p>                        
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Bryan Diaz. The age I am currently am in is 14 years old. I may look white, but don`t let my skin fool you, for you see, I am Hispanic. Personality for me, I believe that we live in a world where seeing is not believe, meaning not all we know is true. For my free time, I simply enjoying playing with my electronic I currently have. For some reason, I love to predict what will happen is the future, so I can be prepared, and it all showed because of my electronics.</p>
-                    </div>
-                </div>
-                
-            <div class="col-xs-4">
-                    <div class="row1">
-                        <p>*Family</p>                        
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It seems that I am the youngest brother, yet still older than my sister. My family is contained with my mother, father, 2 of my older brothers, and 1 younger sister. It was a hard choice choosing my parents because I loved them both. But if I had to pick, I would say that my father and my oldest brother, Edgar, would be my favorite because they just know me so well.  The most interesting sibling is Anthony because you really don`t know what he will do next.</p>
-                    </div>
-                </div>
-            
-                <div class="col-xs-4">
-                    <div class="row1">
-                        <p>*Extra-Curricular Activities</p>                        
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As for my extra-curricular activities, whenever I have my own time, I really don`t do much. What I basically do is just play on my electronics. What I mean is going on the computer, or laptop, and just fooling around, going to website to website, watching videos on YouTube, and playing games on it. Another activity I do is going on my phone and just goof around on it. I also do play myself some XBOX 360 online and watch Netflix on the Wii. Finally, when I feel bored, I exercise.</p>
-                    </div>
-                </div>
-    
-          </div> 
+    <div class="col-xs-12">
+        <h4 style="color: black;"><center>About Me</center></h4>
+    </div>
+
+    <div class="space-t-100 main">
+        <center>
+
+            <script type="text/javascript">
+                var x = 0;
+
+                function rotate(num) {
+                    fs = document.ff.slide;
+                    x = num % fs.length;
+                    if (x < 0)
+                        x = fs.length - 1;
+                    document.images.show.src = fs.options[x].value;
+                    fs.selectedIndex = x;
+                }
+
+                function auto() {
+                    if (document.ff.fa.value == "Stop") {
+                        rotate(++x);
+                        setTimeout("auto()", 60000);
+                    }
+                }
+            </script>
+
+            <form name="ff">
+                <table>
+                    <tr><td align="center">
+                            <img src="http://haloreachdaily.files.wordpress.com/2011/11/mythic-difficulty.jpg" height="500" width="750"name="show">
+                        </td></tr>
+
+                    <tr><td align="center">
+                            <select name="slide">
+                                <option value="http://haloreachdaily.files.wordpress.com/2011/11/mythic-difficulty.jpg">About Me</option>
+                                <option value="http://www.digitaljournal.com/img/1/4/8/8/6/8/i/5/8/6/o/family_guy.jpg">My Family</option>
+                                <option value="http://maidenrelease.com/wp-content/uploads/2013/10/gamer-wallpaperwallpapers-geek-green-video-games-black-nerd-scratches-gamers-pn2dh92k-1.jpg">Hobbies</option>
+                            </select>
+                        </td></tr>
+
+                    <tr><td align="center">
+                            <input type="button" onclick="rotate(x - 1);" value="&lt;&lt;" title="Last Picture" />
+                            <input type="button" onclick="rotate(x + 1);" value="&gt;&gt;" title="Next Picture" />
+                        </td></tr></table></form> 
+
+        </center>
+    </div><!-- /HeaderImg -->
 
 
-        </div><!-- /Blog Article -->
 
-<div class="col-xs-12">
-        <h5 style="color: black;">
-            <center>&copy; Pasadena High School - 2013
-                <br>
-                - Bryan Diaz -
-                <br>
-                -555 Figueroa Drive, CA 91001-</center></h5>
+    <div class="col-xs-4">
+        <p>*Introduction</p>                        
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Bryan Diaz. The age I am currently am in is 14 years old. I may look white, but don`t let my skin fool you, for you see, I am Hispanic. Personality for me, I believe that we live in a world where seeing is not believe, meaning not all we know is true. For my free time, I simply enjoying playing with my electronic I currently have. For some reason, I love to predict what will happen is the future, so I can be prepared, and it all showed because of my electronics.</p>
+    </div>
 </div>
 
+<div class="col-xs-4">
+    <p>*Family</p>                        
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It seems that I am the youngest brother, yet still older than my sister. My family is contained with my mother, father, 2 of my older brothers, and 1 younger sister. It was a hard choice choosing my parents because I loved them both. But if I had to pick, I would say that my father and my oldest brother, Edgar, would be my favorite because they just know me so well.  The most interesting sibling is Anthony because you really don`t know what he will do next.</p>
+</div>
+</div>
 
+<div class="col-xs-4">
+    <p>*Extra-Curricular Activities</p>  
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As for my extra-curricular activities, whenever I have my own time, I really don`t do much. What I basically do is just play on my electronics. What I mean is going on the computer, or laptop, and just fooling around, going to website to website, watching videos on YouTube, and playing games on it. Another activity I do is going on my phone and just goof around on it. I also do play myself some XBOX 360 online and watch Netflix on the Wii. Finally, when I feel bored, I exercise. Lies...</p>
+</div>
+</div>
+
+</div> 
+
+
+</div>   <!-- /Blog Article -->
+
+<div class="col-xs-12">
+    <h5 style="color: black;">
+        <center>&copy; Pasadena High School - 2013
+            <br>
+            - Bryan Diaz -
+            <br>
+            -555 Figueroa Drive, CA 91001-</center></h5>
+</div></div>
+<!-- close space-t-60 -->
 </body>
 
 </html>
